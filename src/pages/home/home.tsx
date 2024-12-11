@@ -1,5 +1,6 @@
 import {Button} from "@/components/ui/button.tsx";
 import WhyChooseUs from "@/components/whychooseus/whyChooseUs.tsx";
+import { Phone } from "lucide-react"
 
 function Home() {
 
@@ -14,7 +15,10 @@ function Home() {
                 <h3 className={"mt-4 font-bold text-xl"}>
                     Tetőfedés vagy tetőfelújítás elött áll? Kérjen árajánlatot gyorsan és egyszerűen!
                 </h3>
-                <Button>06 70 420 3780</Button>
+                <Button>
+                    <Phone/>
+                    06 70 420 3780
+                </Button>
             </div>
 
             <div className="py-10">

@@ -1,5 +1,6 @@
 import {Button} from "@/components/ui/button.tsx";
 import Contactform from "@/components/contactform/contactform.tsx";
+import { Phone } from "lucide-react"
 
 function Contact() {
 
@@ -14,12 +15,7 @@ function Contact() {
                 </h1>
                 <div className={"text-center mt-4"}>
                     <Button>
-                        <img
-                            src="./public/logos/telephone.svg" // A logó képfájljának helye
-                            alt="Tektum Tetőfedő"
-                            className="h-8 font-bold"
-                            style={{filter: "brightness(0) invert(1)"}}
-                        />
+                        <Phone/>
                         06 70 420 3780
                     </Button>
                 </div>

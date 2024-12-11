@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import WhyChooseUs from "@/components/whychooseus/whyChooseUs.tsx";
+import { Speech } from "lucide-react"
 
 function About() {
 
@@ -122,12 +123,7 @@ function About() {
                                         className="flex flex-col items-center text-left bg-gray-100 p-6 rounded-lg shadow-md">
                                         <div
                                             className="flex items-center justify-center w-16 h-16 bg-gray-200 rounded-full mb-4">
-                                            <img
-                                                src="./public/male.svg" // A logó képfájljának helye
-                                                alt="Tektum Tetőfedő"
-                                                className="h-8 font-bold justify-items-center"
-                                                style={{filter: "brightness(2) invert(1)"}}
-                                            />
+                                            <Speech color={"black"} size={"40px"}></Speech>
                                         </div>
                                     </div>
                                     {/* Stars */}
