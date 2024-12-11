@@ -13,7 +13,7 @@ function tinning() {
                     {/* Header kép */}
                     <div className="relative">
                         <img
-                            src="./img/tining.jpg"
+                            src="./tining.jpg"
                             alt="BÁDOGOZÁS"
                             className="w-full h-64 object-cover rounded-lg"
                         />

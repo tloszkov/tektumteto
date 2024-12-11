@@ -14,7 +14,7 @@ function roofInsulation() {
                     {/* Header kép */}
                     <div className="relative">
                         <img
-                            src="./img/insulating.jpg"
+                            src="./insulating.jpg"
                             alt="Szigetelés"
                             className="w-full h-64 object-cover rounded-lg"
                         />

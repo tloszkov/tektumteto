@@ -123,7 +123,7 @@ function About() {
                                         <div
                                             className="flex items-center justify-center w-16 h-16 bg-gray-200 rounded-full mb-4">
                                             <img
-                                                src="./public/logos/male.svg" // A logó képfájljának helye
+                                                src="./public/male.svg" // A logó képfájljának helye
                                                 alt="Tektum Tetőfedő"
                                                 className="h-8 font-bold justify-items-center"
                                                 style={{filter: "brightness(2) invert(1)"}}

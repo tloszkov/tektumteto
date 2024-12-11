@@ -13,7 +13,7 @@ function carpentry() {
                     {/* Header kép */}
                     <div className="relative">
                         <img
-                            src="./img/carpentry.jpg"
+                            src="./carpentry.jpg"
                             alt="ÁCS MUNKA"
                             className="w-full h-64 object-cover rounded-lg"
                         />

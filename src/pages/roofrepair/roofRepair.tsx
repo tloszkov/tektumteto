@@ -13,7 +13,7 @@ function roofRepair() {
                         {/* Header kép */}
                         <div className="relative">
                             <img
-                                src="./img/repair.jpg"
+                                src="./repair.jpg"
                                 alt="Tetőfedés"
                                 className="w-full h-64 object-cover rounded-lg"
                             />

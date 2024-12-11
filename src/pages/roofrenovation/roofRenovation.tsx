@@ -13,7 +13,7 @@ function roofRenovation() {
                     {/* Header kép */}
                     <div className="relative">
                         <img
-                            src="./img/renovation.jpg"
+                            src="./renovation.jpg"
                             alt="Felújítás"
                             className="w-full h-64 object-cover rounded-lg"
                         />

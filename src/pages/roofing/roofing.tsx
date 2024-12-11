@@ -14,7 +14,7 @@ function Roofing() {
                     {/* Header kép */}
                     <div className="relative">
                         <img
-                            src="./img/s1.jpg"
+                            src="./s1.jpg"
                             alt="Tetőfedés"
                             className="w-full h-64 object-cover rounded-lg"
                         />
@@ -46,32 +46,32 @@ function Roofing() {
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                             <div className="hover:shadow-lg rounded-lg overflow-hidden">
-                                <img src="./img/roof1.jpg" alt="Cserepes tetőfedés"
+                                <img src="./roof1.jpg" alt="Cserepes tetőfedés"
                                      className="h-32 w-full object-cover"/>
                                 <div className="p-4 text-center font-bold">Cserepes tetőfedés</div>
                             </div>
                             <div className="hover:shadow-lg rounded-lg overflow-hidden">
-                                <img src="./img/roof2.jpg" alt="Cseréplemezes tetőfedés"
+                                <img src="./roof2.jpg" alt="Cseréplemezes tetőfedés"
                                      className="h-32 w-full object-cover"/>
                                 <div className="p-4 text-center font-bold">Cseréplemezes tetőfedés</div>
                             </div>
                             <div className="hover:shadow-lg rounded-lg overflow-hidden">
-                                <img src="./img/roof3.jpg" alt="Palaszindelyes tetőfedés"
+                                <img src="./roof3.jpg" alt="Palaszindelyes tetőfedés"
                                      className="h-32 w-full object-cover"/>
                                 <div className="p-4 text-center font-bold">Palaszindelyes tetőfedés</div>
                             </div>
                             <div className="hover:shadow-lg rounded-lg overflow-hidden">
-                                <img src="./img/roof4.jpg" alt="Bitumenes tetőfedés"
+                                <img src="./roof4.jpg" alt="Bitumenes tetőfedés"
                                      className="h-32 w-full object-cover"/>
                                 <div className="p-4 text-center font-bold">Bitumenes tetőfedés</div>
                             </div>
                             <div className="hover:shadow-lg rounded-lg overflow-hidden">
-                                <img src="./img/roof5.jpg" alt="Korcolt tetőfedés"
+                                <img src="./roof5.jpg" alt="Korcolt tetőfedés"
                                      className="h-32 w-full object-cover"/>
                                 <div className="p-4 text-center font-bold">Korcolt tetőfedés</div>
                             </div>
                             <div className="hover:shadow-lg rounded-lg overflow-hidden">
-                                <img src="./img/roof6.jpg" alt="Trapézlemez tetőfedés"
+                                <img src="./roof6.jpg" alt="Trapézlemez tetőfedés"
                                      className="h-32 w-full object-cover"/>
                                 <div className="p-4 text-center font-bold">Trapézlemez tetőfedés</div>
                             </div>
