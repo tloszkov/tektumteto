@@ -1,6 +1,7 @@
-import {Button} from "@/components/ui/button.tsx";
 import WhyChooseUs from "@/components/whychooseus/whyChooseUs.tsx";
-import { Phone } from "lucide-react"
+import {Fence, Construction, Pickaxe, ThermometerSun, Rainbow, InspectionPanel} from "lucide-react"
+
+import CallButton from "@/components/callButton/CallButton.tsx";
 
 function Home() {
 
@@ -15,10 +16,9 @@ function Home() {
                 <h3 className={"mt-4 font-bold text-xl"}>
                     Tetőfedés vagy tetőfelújítás elött áll? Kérjen árajánlatot gyorsan és egyszerűen!
                 </h3>
-                <Button>
-                    <Phone/>
-                    06 70 420 3780
-                </Button>
+
+                <CallButton phoneNumber={"0036704203780"} buttonText={"06 70 420 3780"}></CallButton>
+
             </div>
 
             <div className="py-10">
@@ -31,8 +31,7 @@ function Home() {
                             <div
                                 className="bg-green-700  rounded-full w-16 h-16 flex items-center justify-center mb-4">
                                 <i className="fas fa-th-large"></i>
-                                <img className={"w-10"} src={"./public/roof-svgrepo-com(1).svg"}
-                                     alt="Tektum Tetőfedő"/>
+                                <Fence size={40}/>
                             </div>
                             <h4 className="font-bold text-lg text-gray-800 mb-2">Tetőfedés</h4>
                             <p className="text-gray-600 ">
@@ -43,8 +42,7 @@ function Home() {
                             <div
                                 className="bg-green-700  rounded-full w-16 h-16 flex items-center justify-center mb-4">
                                 <i className="fas fa-tv"></i>
-                                <img className={"w-10"} src={"./public/roof-svgrepo-com(2).svg"}
-                                     alt="Teto felujitas"/>
+                                <Construction size={40}/>
                             </div>
                             <h4 className="font-bold text-lg text-gray-800 mb-2">Tetőfelújítás</h4>
                             <p className="text-gray-600">
@@ -55,8 +53,7 @@ function Home() {
                             <div
                                 className="bg-green-700  rounded-full w-16 h-16 flex items-center justify-center mb-4">
                                 <i className="fas fa-tools"></i>
-                                <img className={"w-10"} src={"./public/roof-svgrepo-com(3).svg"}
-                                     alt="Teto javitas"/>
+                                <Pickaxe size={40}/>
                             </div>
                             <h4 className="font-bold text-lg text-gray-800 mb-2">Tetőjavítás</h4>
                             <p className="text-gray-600">
@@ -67,8 +64,7 @@ function Home() {
                             <div
                                 className="bg-green-700  rounded-full w-16 h-16 flex items-center justify-center mb-4">
                                 <i className="fas fa-thermometer-three-quarters"></i>
-                                <img className={"w-10"} src={"./public/roof-svgrepo-com(4).svg"}
-                                     alt="Teto szigeteles"/>
+                                <ThermometerSun size={40}/>
                             </div>
                             <h4 className="font-bold text-lg text-gray-800 mb-2">Tetőszigetelés</h4>
                             <p className="text-gray-600">
@@ -79,7 +75,7 @@ function Home() {
                             <div
                                 className="bg-green-700 rounded-full w-16 h-16 flex items-center justify-center mb-4">
                                 <i className="fas fa-tint"></i>
-                                <img className={"w-10"} src={"./public/roof-svgrepo-com.svg"} alt="Teto mosas"/>
+                                <Rainbow size={40}/>
                             </div>
                             <h4 className="font-bold text-lg text-gray-800 mb-2">Tetőmosás</h4>
                             <p className="text-gray-600">
@@ -90,8 +86,7 @@ function Home() {
                             <div
                                 className="bg-green-700 rounded-full w-16 h-16 flex items-center justify-center mb-4">
                                 <i className="fas fa-wrench"></i>
-                                <img className={"w-10"} src={"./public/roof-svgrepo-com(5).svg"}
-                                     alt="Teto mosas"/>
+                                <InspectionPanel size={40}/>
                             </div>
                             <h4 className="font-bold text-lg text-gray-800 mb-2">Bádogos Munkák</h4>
                             <p className="text-gray-600">

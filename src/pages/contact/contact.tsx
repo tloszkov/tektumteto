@@ -1,6 +1,6 @@
-import {Button} from "@/components/ui/button.tsx";
 import Contactform from "@/components/contactform/contactform.tsx";
-import { Phone } from "lucide-react"
+import CallButton from "@/components/callButton/CallButton.tsx";
+import WhatsAppButton from "@/components/whatsAppButton/WhatsAppButton.tsx";
 
 function Contact() {
 
@@ -14,13 +14,13 @@ function Contact() {
                     Elérhetőségeink és árajánlat kérés
                 </h1>
                 <div className={"text-center mt-4"}>
-                    <Button>
-                        <Phone/>
-                        06 70 420 3780
-                    </Button>
+                    <CallButton phoneNumber={"0036704203780"} buttonText={"06 70 420 3780"}></CallButton>
                 </div>
                 <h3 className={"mt-4 font-bold text-xl"}>
                     Kérje ingyenes árajánlatunkat, pár órán belül válaszolunk!
+                    <p className={"mt-4"}>
+                        <WhatsAppButton phoneNumber={"+36704203780"}></WhatsAppButton>
+                    </p>
                 </h3>
             </div>
 
